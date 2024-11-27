@@ -1,0 +1,63 @@
+*{
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 auto;
+}
+body{
+    background-color: hsl(12, 18%, 60%);
+    padding: 20px;
+}
+.body{
+    border-radius: 2%;
+    width: 325px;
+    height: 600px;
+    overflow: hidden;
+    padding-left: 10px;
+    font-size: xx-small;
+}
+header{
+    width: 300px;
+}
+img{
+    width: 295px;
+    height: 100px;
+    padding-top: 10px;
+    border-radius: 6px;
+}
+@media screen and (max-width: 600px) {
+    .body{
+        width: 500px;
+    }    
+}
+p, li{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: hsl(14, 45%, 36%);
+    text-transform: capitalize;
+    text-align: center;
+}
+h3{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.holla{
+    padding-left: 20px;
+}
+td{
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+    padding: 5px 50px;
+}
+div{
+    line-height: 12px;
+}
+.item{
+    color: rgba(8, 8, 8, 0.5);
+}
+.prep{
+    background-color: hsl(330, 100%, 98%);
+}
